@@ -12,8 +12,7 @@ dropdownItems.forEach(dropdownItem => {
     dropdownItem.addEventListener('mouseout', () => {
         dropdownItem.lastElementChild.style.cssText = 
             `opacity:0; visibility: hidden`;
-        document.querySelector('.navbar-wrapper').style.background = "none";
-        
+        document.querySelector('.navbar-wrapper').style.background = "none";        
     });
 });  
 // End of Navigation
